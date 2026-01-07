@@ -1,4 +1,4 @@
-.notification {
+.toast-notification {
     position: fixed;
     bottom: 30px;
     right: 30px;
@@ -16,7 +16,7 @@
     animation: slideUp 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
-.notif-content {
+.toast-content {
     display: flex;
     align-items: center;
     gap: 10px;
@@ -24,7 +24,7 @@
     font-size: 0.95rem;
 }
 
-.notif-close {
+.toast-close {
     background: transparent;
     border: none;
     color: #a7f3d0;
@@ -36,7 +36,7 @@
     transition: color 0.2s;
 }
 
-.notif-close:hover {
+.toast-close:hover {
     color: white;
 }
 
@@ -53,7 +53,7 @@
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
-    .notif-notification {
+    .toast-notification {
         bottom: 20px;
         left: 20px;
         right: 20px;

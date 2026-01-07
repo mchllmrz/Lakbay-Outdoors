@@ -1,7 +1,7 @@
 import React from 'react';
 import { X, CheckCircle } from "lucide-react";
 import { useCart } from './CartContext'; 
-import '../styles/Notif.css';
+import '../styles/Toast.css';
 
 function Notif() {
     const { notification, closeNotification } = useCart();
@@ -9,11 +9,11 @@ function Notif() {
     if (!notification) return null;
 
     return (
-        <div className="notification">
-            <div className="notif-content">
+        <div className="toast-notification">
+            <div className="toast-content">
                 <span>{notification}</span>
             </div>
-            <button onClick={closeNotification} className="notif-close">
+            <button onClick={closeNotification} className="toast-close">
                 <X size={18} />
             </button>
         </div>
