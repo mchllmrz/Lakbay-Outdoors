@@ -66,11 +66,11 @@
     gap: 10px;
     overflow-x: auto; 
     padding-bottom: 5px;
-    scrollbar-width: none; /* Hides scrollbar in Firefox */
+    scrollbar-width: none; 
 }
 
 .filter-buttons::-webkit-scrollbar {
-    display: none; /* Hides scrollbar in Chrome/Safari */
+    display: none; 
 }
 
 .filter-btn {
