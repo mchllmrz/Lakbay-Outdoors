@@ -2,10 +2,10 @@ export const products = [
     // --- HIKING ---
     {
         id: 1,
-        name: "Mt. Pulag Hiking Boots",
+        name: "Hiking Boots",
         category: "hiking",
         price: 4500,
-        image: "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1000&auto=format&fit=crop",
+        image: "https://m.media-amazon.com/images/I/71p2KL9ZXTL._AC_SY395_.jpg",
         description: "Rugged waterproof boots designed for the muddy trails of Luzon's highest peaks."
     },
     {
@@ -13,7 +13,7 @@ export const products = [
         name: "Carbon Fiber Trekking Poles",
         category: "hiking",
         price: 1800,
-        image: "https://images.unsplash.com/photo-1551632811-561732d1e306?q=80&w=1000&auto=format&fit=crop",
+        image: "https://m.media-amazon.com/images/I/6134PIDPt0L._AC_SX425_.jpg",
         description: "Ultralight adjustable poles to save your knees on steep descents."
     },
     {
@@ -21,7 +21,7 @@ export const products = [
         name: "Dry-Fit Hiking Shirt",
         category: "hiking",
         price: 750,
-        image: "https://images.unsplash.com/photo-1533903251433-28f4077685bc?q=80&w=1000&auto=format&fit=crop",
+        image: "https://m.media-amazon.com/images/I/8194GbyVaaL._AC_SX342_.jpg",
         description: "Breathable fabric that wicks sweat away. Essential for tropical heat."
     },
     {
@@ -29,7 +29,7 @@ export const products = [
         name: "40L Waterproof Backpack",
         category: "hiking",
         price: 2800,
-        image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?q=80&w=1000&auto=format&fit=crop",
+        image: "https://m.media-amazon.com/images/I/81siwI2UxEL._AC_SY300_SX300_QL70_FMwebp_.jpg",
         description: "Spacious and durable daypack with built-in rain cover."
     },
     {
@@ -37,7 +37,7 @@ export const products = [
         name: "Hydration Bladder (2L)",
         category: "hiking",
         price: 850,
-        image: "https://images.unsplash.com/photo-1560201860-262846f7ca95?q=80&w=1000&auto=format&fit=crop", // Water bottle/hydration
+        image: "https://m.media-amazon.com/images/I/818PpKynhlL._AC_SL1500_.jpg", 
         description: "Stay hydrated on the go without stopping. Fits most hiking backpacks."
     },
     {
@@ -45,7 +45,7 @@ export const products = [
         name: "Lightweight Rain Jacket",
         category: "hiking",
         price: 2500,
-        image: "https://images.unsplash.com/photo-1545620958-3d5f3032537f?q=80&w=1000&auto=format&fit=crop", // Jacket
+        image: "https://m.media-amazon.com/images/I/61NLMNUB9ML._AC_SX342_.jpg", 
         description: "Packable windbreaker and rain shell, essential for unpredictable mountain weather."
     },
     {
@@ -53,7 +53,7 @@ export const products = [
         name: "Merino Wool Hiking Socks",
         category: "hiking",
         price: 600,
-        image: "https://images.unsplash.com/photo-1579766986616-e56badb3d078?q=80&w=1000&auto=format&fit=crop", // Socks
+        image: "https://m.media-amazon.com/images/I/81NGu9Q8MSL._AC_SX342_.jpg", 
         description: "Anti-blister, odor-resistant socks for long days on the trail."
     },
 
@@ -63,7 +63,7 @@ export const products = [
         name: "Apo Lightweight Tent",
         category: "camping",
         price: 3200,
-        image: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?q=80&w=1000&auto=format&fit=crop",
+        image: "https://m.media-amazon.com/images/I/71sbNSEx1iL._AC_SY300_SX300_QL70_FMwebp_.jpg",
         description: "Free-standing 2-person tent with excellent ventilation."
     },
     {
@@ -71,7 +71,7 @@ export const products = [
         name: "Mummy Sleeping Bag (-5°C)",
         category: "camping",
         price: 2100,
-        image: "https://images.unsplash.com/photo-1626248386407-35367623126f?q=80&w=1000&auto=format&fit=crop", // Sleeping bag
+        image: "https://m.media-amazon.com/images/I/71uCwBSy5RL._AC_SX425_.jpg", 
         description: "Keep warm on chilly nights in the Cordilleras. Compact and lightweight."
     },
     {
@@ -79,7 +79,7 @@ export const products = [
         name: "Portable Camping Stove",
         category: "camping",
         price: 1300,
-        image: "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?q=80&w=1000&auto=format&fit=crop", // Stove
+        image: "https://m.media-amazon.com/images/I/71+hmUPnt0L._AC_SY300_SX300_QL70_FMwebp_.jpg", 
         description: "Reliable butane stove for cooking hot meals at the summit."
     },
     {
@@ -87,7 +87,7 @@ export const products = [
         name: "Inflatable Sleeping Pad",
         category: "camping",
         price: 1500,
-        image: "https://images.unsplash.com/photo-1523987355523-c7b5b0dd90a7?q=80&w=1000&auto=format&fit=crop", // Camping mat vibe
+        image: "https://m.media-amazon.com/images/I/61TpnKdgExL._AC_SY300_SX300_QL70_FMwebp_.jpg", 
         description: "Insulated pad for a comfortable sleep on rocky ground."
     },
     {
@@ -95,7 +95,7 @@ export const products = [
         name: "LED Headlamp (400 Lumens)",
         category: "camping",
         price: 950,
-        image: "https://plus.unsplash.com/premium_photo-1678829743453-6112999037e9?q=80&w=1000&auto=format&fit=crop", // Headlamp / light
+        image: "https://m.media-amazon.com/images/I/61bIa8AnexL._AC_SY300_SX300_QL70_FMwebp_.jpg", 
         description: "Hands-free lighting for night trekking and camp chores."
     },
     {
@@ -103,7 +103,7 @@ export const products = [
         name: "Titanium Camping Mug",
         category: "camping",
         price: 650,
-        image: "https://images.unsplash.com/photo-1514217196236-0c9ebcb5b3dd?q=80&w=1000&auto=format&fit=crop", // Camping mug
+        image: "https://m.media-amazon.com/images/I/71oZwdU0qoL._AC_SY300_SX300_QL70_FMwebp_.jpg", 
         description: "Ultra-durable and lightweight mug for your morning coffee."
     },
 
@@ -113,7 +113,7 @@ export const products = [
         name: "Pro Rock Climbing Harness",
         category: "climbing",
         price: 5500,
-        image: "https://images.unsplash.com/photo-1601221763137-b4d0eb04b404?q=80&w=1000&auto=format&fit=crop", // Climbing gear
+        image: "https://m.media-amazon.com/images/I/71JceyaGVLL._AC_SY300_SX300_QL70_FMwebp_.jpg", 
         description: "Padded waist belt and leg loops for all-day comfort at the crag."
     },
     {
@@ -121,7 +121,7 @@ export const products = [
         name: "Carabiner Set (Pack of 5)",
         category: "climbing",
         price: 1200,
-        image: "https://images.unsplash.com/photo-1526541607520-21b33346452e?q=80&w=1000&auto=format&fit=crop",
+        image: "https://m.media-amazon.com/images/I/81iRzjms5AL._AC_SY300_SX300_QL70_FMwebp_.jpg",
         description: "Heavy-duty screw-lock carabiners for anchoring and belaying."
     },
     {
@@ -129,7 +129,7 @@ export const products = [
         name: "Climbing Chalk Bag",
         category: "climbing",
         price: 950,
-        image: "https://images.unsplash.com/photo-1522205408450-add114ad53fe?q=80&w=1000&auto=format&fit=crop",
+        image: "https://m.media-amazon.com/images/I/81CcE7HnHFL._AC_SY300_SX300_QL70_FMwebp_.jpg",
         description: "Fleece-lined bag to keep your hands dry on sweaty sends."
     },
     {
@@ -137,7 +137,7 @@ export const products = [
         name: "Dynamic Climbing Rope (60m)",
         category: "climbing",
         price: 8500,
-        image: "https://images.unsplash.com/photo-1599380068305-b16a245c38ac?q=80&w=1000&auto=format&fit=crop", // Rope
+        image: "https://m.media-amazon.com/images/I/71HoT8pgqKL._AC_SY450_.jpg", 
         description: "Standard 9.8mm rope for lead climbing and top-roping."
     },
     {
@@ -145,7 +145,7 @@ export const products = [
         name: "Aggressive Climbing Shoes",
         category: "climbing",
         price: 6200,
-        image: "https://images.unsplash.com/photo-1678997415178-57bdcb058525?q=80&w=1000&auto=format&fit=crop", // Climbing shoes
+        image: "https://m.media-amazon.com/images/I/71A507cEy0L._AC_SY300_SX300_QL70_FMwebp_.jpg", 
         description: "Downturned profile for maximum precision on overhangs."
     },
     {
@@ -153,7 +153,7 @@ export const products = [
         name: "Climbing Helmet",
         category: "climbing",
         price: 3400,
-        image: "https://images.unsplash.com/photo-1523456382414-0bb4d7285513?q=80&w=1000&auto=format&fit=crop", // Helmet (mock generic outdoor)
+        image: "https://m.media-amazon.com/images/I/51BE2o6Xh2L._AC_SY300_SX300_QL70_FMwebp_.jpg", 
         description: "Lightweight protection against falling rocks and impact."
     },
     {
@@ -161,7 +161,7 @@ export const products = [
         name: "Belay Device (ATC)",
         category: "climbing",
         price: 1100,
-        image: "https://images.unsplash.com/photo-1574347895024-5d9c79f9479b?q=80&w=1000&auto=format&fit=crop", // Climbing hardware
+        image: "https://m.media-amazon.com/images/I/61Jw34dakvL._AC_SX425_.jpg", 
         description: "Classic tube-style belay device with teeth for extra friction."
     }
 ];
