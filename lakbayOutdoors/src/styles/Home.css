@@ -1,0 +1,204 @@
+body {
+    background-color: rgb(255, 255, 255); 
+}
+
+.home-container{
+    background: linear-gradient(rgba(66, 68, 79, 0.719), rgba(0, 0, 0, 0.4)), url('/mountpulag.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-attachment: fixed;
+}
+
+.home-content{
+    max-width: 800px;
+    padding: 0 20px;
+    margin-bottom: 100px;
+}
+
+.badge{
+    background-color: rgb(1, 88, 22);
+    color: aliceblue;
+    padding: 5px 15px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.home-content h1{
+    font-size: 3.5rem;
+    line-height: 1;
+    margin: 20px;
+    font-weight: 800;
+}
+
+.highlight{
+    color: rgb(236, 189, 2);
+}
+
+.home-content p{
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+    opacity: 0.8;;
+}
+
+.toshop-btn{
+    background-color: aliceblue;
+    color: black;
+    padding: 12px 25px;
+    border-radius: 30px;
+    border: none;
+    font-size: 1.1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+}
+
+.toshop-btn:hover{
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(127, 150, 214, 0.868);
+}
+
+
+.features-section {
+    position: relative;
+    bottom: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 90%;
+    max-width: 1500px;
+    margin-top: -80px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    z-index: 10;
+}
+
+.feature-card {
+    background: white;
+    color: #256611;
+    padding: 40px 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    transition: transform 0.3s ease;
+    justify-content: center;
+}
+.feature-card:hover{
+    transform: translateY(-5px); 
+}
+
+.feature-card h3 {
+    font-size: 1rem;
+    margin: 0;
+    font-weight: 600;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .features-section {
+        grid-template-columns: repeat(2, 1fr); 
+        bottom: -240px;
+         
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .home-container {
+        height: auto;
+        min-height: 100vh;
+        padding-top: 50%;
+        justify-content: flex-start; 
+    }
+
+    .home-content h1 {
+        font-size: 2.5rem; 
+    }
+
+    .features-section {
+        position: relative;     
+        bottom: auto;    
+        left: auto;
+        transform: none;       
+        margin-top: 40px;
+        text-align: center;
+        grid-template-columns: 1fr; 
+        width: 100%;
+        padding: 0px 20px;
+        box-sizing: border-box; 
+    }
+
+    .feature-card {
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+    }
+}
+
+.cta-banner {
+    background-color:rgb(17, 56, 91);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    margin-top: 50px;
+    height: 500px;
+}
+
+.cta-banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.cta-banner p {
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.btn-outline {
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-outline:hover {
+    background: white;
+    color: #064e3b;
+}

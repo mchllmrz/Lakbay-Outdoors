@@ -1,0 +1,151 @@
+.footer{
+    background: rgb(17, 56, 91);
+    color: aliceblue;
+    padding-top: 4rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 3rem;
+}
+
+.footer-brand{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 1rem;
+}
+
+.footer-logo-img{
+    height: 30px;
+    filter: brightness(0) invert(1);
+}
+
+.footer h2{
+    font-size: 1.2rem;
+    font-weight: 800;
+    margin: 0;
+    color: aliceblue;
+}
+
+.footer h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    opacity: 0.8;
+}
+
+
+
+.footer a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 0.9rem;
+    transition: color 0.2s ease;
+}
+
+.footer a:hover {
+    color: #74757f; 
+    opacity: 1;
+}
+
+.social-icons{
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons a{
+    background-color:rgba(255, 255, 255, 0.1);
+    padding: 8px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: #ffffff;
+    color: #0b2136;
+}
+
+.newsletter-form {
+    display: flex;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    padding: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    width: 100%;
+    max-width: 300px;
+    margin-left: auto;
+}
+
+.newsletter-form input {
+    background: transparent;
+    border: none;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    outline: none;
+}
+
+.newsletter-form input::placeholder {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.newsletter-form button {
+    background-color: #eff1f1; /* Green Button */
+    border: none;
+    border-radius: 6px;
+    color: rgb(4, 4, 4);
+    padding: 0 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter-form button:hover {
+    background-color: #202b4c;
+    color: #eff1f1;
+}
+
+.newsletter-text{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    opacity: 0.8;
+    text-align: right;
+}
+
+.footer-container div:last-child h3 {
+    text-align: right;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}
+
+.footer-bottom p {
+    font-size: 0.75rem;
+    opacity: 0.5;
+    letter-spacing: 1px;
+    margin: 0;
+}
